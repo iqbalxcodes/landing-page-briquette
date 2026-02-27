@@ -112,23 +112,23 @@
 }
 
 .product {
-    padding: 50px 50px;
+    padding: 25px 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 25px;
 }
 
 .product-card-container {
     display: flex;
-    gap: 100px;
+    gap: 50px;
 }
 
 .hookah {
     background-image: url(./assets/hookah.webp);
     height: 300px;
-    width: 300px;
+    width: 400px;
     object-position: center;
     background-position: center;
     display: flex;
@@ -141,7 +141,7 @@
 .barbecue {
     background-image: url(./assets/barbecue.webp);
     height: 300px;
-    width: 300px;
+    width: 400px;
     object-position: center;
     background-position: center;
     display: flex;
@@ -154,4 +154,110 @@
 .product-card h2 {
     display: flex;
     justify-content: center;
+}
+
+.specification {
+    padding: 25px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.quality {
+    padding: 25px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.quality-paragraph {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 10px;
+}
+
+.trial {
+    padding: 25px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+}
+
+.trial-btn-container {
+    display: flex;
+    gap: 30px;
+}
+
+.btn {
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px grey;
+}
+
+.whatsapp {
+    background-color: green;
+    color: white;
+}
+
+.email {
+    background-color: black;
+    color: white;
+
+}
+
+.feature {
+    padding: 25px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+}
+
+.feature-card-container {
+    display: flex;
+    gap: 25px;
+}
+
+.feature-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 50px 25px;
+}
+
+
+.feature-description p{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.legality {
+    padding: 25px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.legality p {
+    padding: 20px 50px;
+    border: 2px green solid;
+}
+
+.legality-card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
 }
