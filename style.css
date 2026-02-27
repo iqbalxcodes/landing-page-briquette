@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+.header {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+}
+
 .video-bg {
     position: absolute;
     top: 0;
@@ -11,4 +20,138 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 25px 100px 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex: 1;
+    gap: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+.about-us {
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+}
+
+.vision-mission {
+    background-image: url(./assets/coconut-tree.webp);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 25px;
+    gap: 50px;
+
+}
+
+.vision {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg, #2c3e50, #000000);
+    color: white;
+    border-radius: 12px;
+    padding: 25px;
+    gap: 10px;
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg, #2c3e50, #000000);
+    color: white;
+    border-radius: 12px;
+    padding: 25px;
+    gap: 10px;
+
+}
+
+.mission ul {
+    list-style: none;
+}
+
+.product {
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.product-card-container {
+    display: flex;
+    gap: 100px;
+}
+
+.hookah {
+    background-image: url(./assets/hookah.webp);
+    height: 300px;
+    width: 300px;
+    object-position: center;
+    background-position: center;
+    display: flex;
+    background-size: 200%;
+    justify-content: center;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+
+.barbecue {
+    background-image: url(./assets/barbecue.webp);
+    height: 300px;
+    width: 300px;
+    object-position: center;
+    background-position: center;
+    display: flex;
+    background-size: 200%;
+    justify-content: center;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+
+.product-card h2 {
+    display: flex;
+    justify-content: center;
 }
