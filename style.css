@@ -224,6 +224,8 @@
 .feature-card-container {
     display: flex;
     gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .feature-card {
@@ -239,6 +241,7 @@
     display: flex;
     justify-content: center;
     text-align: justify;
+
 }
 
 .legality {
@@ -258,6 +261,117 @@
 .legality-card-container {
     display: flex;
     gap: 20px;
-    justify-content: center;
+}
 
+.legality-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.legality-card h3 {
+}
+
+.legality-card-logo {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.certification-paragraph {
+    border: 2px green solid;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    max-width: 850px;
+    padding 50px 50px;
+    
+}
+
+.certification-card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+} 
+
+.certification-card {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certification p {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    flex-wrap: wrap;
+    padding: 5px 50px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.gallery-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery-card {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border: solid 2px black;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.faq-card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.faq-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    height: auto;
+    border: solid 2px black;
+    flex-wrap: wrap;
+}
+
+.faq-card p {
+    padding: 5px 20px;
 }
